@@ -1,0 +1,312 @@
+/* All Pages */
+.arrow {
+  position: absolute;
+  width: 40px;     
+  cursor: pointer;
+}
+
+
+.arrow-left {
+  left: 10px;
+  bottom: 10px;
+}
+
+
+.arrow-right {
+  right: 10px;
+  bottom: 10px;
+}
+
+.footer {
+  background-color: #A3BDBD;
+  border-top: 4px solid #861F29;
+}
+
+.nav-line {
+  border-bottom: 4px solid #861F29;
+}
+
+.decor-img {
+  width: 40px;
+  height: auto;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-belmont {
+  background-color: #861F29;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  display:block;
+  width: 220px;
+  box-shadow: none;
+}
+
+.red-title {
+  color:#861F29;
+}
+
+.nav-decor {
+  display: flex;
+  align-items: center;
+  gap: 6px; 
+}
+
+.nav-decor .decor {
+  width: 18px;
+  height: auto;
+}
+
+/* Home Page */
+/* Hero Section */
+#hero {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.hero-img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+}
+ 
+.hero-red-rectangle {
+    position: absolute;
+    background-color: rgba(134, 31, 41, 0.65);
+    padding: 16px 32px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .hero-content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Home Page - Welcome Section */
+  .happy-image {
+    max-height: 350px;
+    width: 100%;       
+    object-fit: cover; 
+    border: 2px solid #000; 
+    display: block;     
+  }
+  
+  .image-box {
+    overflow: hidden; 
+  }
+
+  .btn-sec {
+    width: 220px;
+    display: block;
+    text-align: center;
+  }
+
+
+
+/* Menu Page */
+/* COLLAPSE BUTTON */
+.collapse-btn {
+  width: 100%;
+  background-color: #861F29;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.collapse-btn:hover {
+  background-color: #6f0f1e;
+}
+
+.collapse-title {
+  letter-spacing: 3px;
+}
+
+.collapse-arrow {
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
+
+/* COLLAPSE CONTENT */
+.menu-section {
+  background-color: #D3E1E4;
+}
+
+.menu-title {
+  color: #861F29;
+  font-weight: bold;
+}
+
+.menu-img {
+    width: 100%;
+    height: 300px;      
+    object-fit: cover; 
+    border: 1px solid black;
+}
+
+.menu-card {
+  text-align: center;
+}
+
+.allergy-box {
+  max-width: 500px;
+  border: 1px solid black;
+  background-color: #F9F3EE;
+}
+
+
+
+
+
+
+
+/* Reservation Page */
+.custom-form-control {
+  background-color: #D8E6E9; 
+  border: 1px solid #d8d8d8; 
+  padding: 0.75rem 0.75rem;
+  color: black; 
+}
+
+.custom-form-control::placeholder {
+  color: black;
+  opacity: 1; 
+}
+
+.custom-form-control:focus {
+  background-color: #f8f8f8;
+  border-color: #bbbbbb;
+  box-shadow: none; 
+  color: black;
+}
+
+
+.reservation-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  margin-top: 1rem;
+}
+
+.catering-box {
+  background-color: #D8E6E9;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.catering-image-wrapper {
+  max-height: 530px; 
+}
+
+.catering-image-wrapper img {
+  object-fit: cover;
+}
+
+.reservation-section {
+    background-color: #D8E6E9 !important; 
+}
+.catering-section {
+    background-color: #ffffff !important; 
+}
+
+.img-fluid.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.custom-form-control option:first-child {
+  color: black;
+}
+
+
+.custom-form-catering {
+  background-color: white; 
+  border: 1px solid #d8d8d8; 
+  padding: 0.75rem 0.75rem;
+  color: black; 
+}
+
+.reservation-image-wrapper {
+  display: flex; 
+  align-items: stretch;
+  height: 100%; 
+}
+
+.reservation-image-wrapper img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .welcome-text {
+  margin-top: 25px;
+} */
+
+/* .welcome-title {
+  margin-top: 0 px;
+} */
+
+/* .reservation-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+
+.catering-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.catering-img {
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+} */
+
+
+/* .reservation-image-wrapper {
+  max-height: 400px; 
+} */
+
+/* .reservation-image-wrapper img {
+  object-fit: cover;
+} */
+
+
